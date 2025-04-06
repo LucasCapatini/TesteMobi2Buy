@@ -1,0 +1,17 @@
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\bin\Debug\net9.0\TesteMobi2Buy.Infrastructure.deps.json
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\bin\Debug\net9.0\TesteMobi2Buy.Infrastructure.runtimeconfig.json
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\bin\Debug\net9.0\TesteMobi2Buy.Infrastructure.dll
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\bin\Debug\net9.0\TesteMobi2Buy.Infrastructure.pdb
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\bin\Debug\net9.0\TesteMobi2Buy.Domain.dll
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\bin\Debug\net9.0\TesteMobi2Buy.Domain.pdb
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\obj\Debug\net9.0\TesteMobi2Buy.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\obj\Debug\net9.0\TesteMobi2Buy.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\obj\Debug\net9.0\TesteMobi2Buy.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\obj\Debug\net9.0\TesteMobi2Buy.Infrastructure.AssemblyInfo.cs
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\obj\Debug\net9.0\TesteMobi2Buy.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\obj\Debug\net9.0\TesteMob.37EC5654.Up2Date
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\obj\Debug\net9.0\TesteMobi2Buy.Infrastructure.dll
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\obj\Debug\net9.0\refint\TesteMobi2Buy.Infrastructure.dll
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\obj\Debug\net9.0\TesteMobi2Buy.Infrastructure.pdb
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\obj\Debug\net9.0\TesteMobi2Buy.Infrastructure.genruntimeconfig.cache
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Infrastructure\obj\Debug\net9.0\ref\TesteMobi2Buy.Infrastructure.dll

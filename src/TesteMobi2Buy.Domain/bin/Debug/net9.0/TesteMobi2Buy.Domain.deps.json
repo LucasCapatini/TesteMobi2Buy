@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TesteMobi2Buy.Domain/1.0.0": {
+        "runtime": {
+          "TesteMobi2Buy.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteMobi2Buy.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

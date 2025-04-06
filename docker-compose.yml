@@ -1,0 +1,62 @@
+services:
+  testemobi2buy.api:
+    build:
+      context: .
+      dockerfile: src/TesteMobi2Buy.API/Dockerfile
+    container_name: testemobi2buy-api
+    ports:
+      - "5000:80"
+    depends_on:
+        postgres:
+            condition: service_healthy
+        rabbitmq:
+            condition: service_healthy
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=clientesdb;Username=postgres;Password=postgres
+    networks:
+      - app-network
+
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: clientesdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    healthcheck:
+        test: ["CMD", "pg_isready", "-U", "postgres"]
+        interval: 10s
+        timeout: 5s
+        retries: 5
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - app-network
+
+volumes:
+  pgdata:
+
+networks:
+  app-network:
+    driver: bridge

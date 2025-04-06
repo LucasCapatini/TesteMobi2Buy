@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TesteMobi2Buy.API.props" />
+</Project>

@@ -1,0 +1,11 @@
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Domain\bin\Debug\net9.0\TesteMobi2Buy.Domain.deps.json
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Domain\bin\Debug\net9.0\TesteMobi2Buy.Domain.dll
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Domain\bin\Debug\net9.0\TesteMobi2Buy.Domain.pdb
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Domain\obj\Debug\net9.0\TesteMobi2Buy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Domain\obj\Debug\net9.0\TesteMobi2Buy.Domain.AssemblyInfoInputs.cache
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Domain\obj\Debug\net9.0\TesteMobi2Buy.Domain.AssemblyInfo.cs
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Domain\obj\Debug\net9.0\TesteMobi2Buy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Domain\obj\Debug\net9.0\TesteMobi2Buy.Domain.dll
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Domain\obj\Debug\net9.0\refint\TesteMobi2Buy.Domain.dll
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Domain\obj\Debug\net9.0\TesteMobi2Buy.Domain.pdb
+C:\Users\LucasDell3250\source\repos\TesteMobi2Buy\src\TesteMobi2Buy.Domain\obj\Debug\net9.0\ref\TesteMobi2Buy.Domain.dll

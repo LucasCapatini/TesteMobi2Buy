@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "DZTcpyp/DWQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LucasDell3250\\source\\repos\\TesteMobi2Buy\\src\\TesteMobi2Buy.Application\\TesteMobi2Buy.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.3\\microsoft.entityframeworkcore.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.3\\microsoft.entityframeworkcore.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.3\\microsoft.entityframeworkcore.analyzers.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.1\\microsoft.entityframeworkcore.relational.9.0.1.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.3\\microsoft.extensions.caching.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.3\\microsoft.extensions.caching.memory.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.3\\microsoft.extensions.configuration.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.3\\microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.3\\microsoft.extensions.diagnostics.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.3\\microsoft.extensions.fileproviders.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.3\\microsoft.extensions.hosting.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.logging\\9.0.3\\microsoft.extensions.logging.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.3\\microsoft.extensions.logging.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.options\\9.0.3\\microsoft.extensions.options.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.3\\microsoft.extensions.primitives.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.4\\npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\polly\\8.5.2\\polly.8.5.2.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\polly.core\\8.5.2\\polly.core.8.5.2.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\LucasDell3250\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

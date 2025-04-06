@@ -1,0 +1,6 @@
+@TesteMobi2Buy.API_HostAddress = http://localhost:5100
+
+GET {{TesteMobi2Buy.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

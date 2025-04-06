@@ -1,0 +1,118 @@
+name: dockercompose15805936158930954475
+services:
+  postgres:
+    container_name: postgres
+    environment:
+      POSTGRES_DB: clientesdb
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    healthcheck:
+      test:
+        - CMD
+        - pg_isready
+        - -U
+        - postgres
+      timeout: 5s
+      interval: 10s
+      retries: 5
+    image: postgres:15
+    networks:
+      app-network: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: pgdata
+        target: /var/lib/postgresql/data
+        volume: {}
+  rabbitmq:
+    container_name: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_PASS: guest
+      RABBITMQ_DEFAULT_USER: guest
+    healthcheck:
+      test:
+        - CMD
+        - rabbitmq-diagnostics
+        - ping
+      timeout: 5s
+      interval: 10s
+      retries: 5
+    image: rabbitmq:3-management
+    networks:
+      app-network: null
+    ports:
+      - mode: ingress
+        target: 5672
+        published: "5672"
+        protocol: tcp
+      - mode: ingress
+        target: 15672
+        published: "15672"
+        protocol: tcp
+  testemobi2buy.api:
+    build:
+      context: C:\Users\LucasDell3250\source\repos\TesteMobi2Buy
+      dockerfile: src/TesteMobi2Buy.API/Dockerfile
+    container_name: testemobi2buy-api
+    depends_on:
+      postgres:
+        condition: service_healthy
+        required: true
+      rabbitmq:
+        condition: service_healthy
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+      ASPNETCORE_URLS: http://+:80
+      ConnectionStrings__DefaultConnection: Host=postgres;Database=clientesdb;Username=postgres;Password=postgres
+    networks:
+      app-network: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5000"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\LucasDell3250\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\LucasDell3250\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\LucasDell3250\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\LucasDell3250\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  app-network:
+    name: dockercompose15805936158930954475_app-network
+    driver: bridge
+volumes:
+  pgdata:
+    name: dockercompose15805936158930954475_pgdata

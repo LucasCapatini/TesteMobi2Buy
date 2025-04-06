@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TesteMobi2Buy.API.props" />
+</Project>
